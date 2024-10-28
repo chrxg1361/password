@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chrxg1361/password/static/css/main.5095902f.css",
+    "main.js": "/chrxg1361/password/static/js/main.4d5d4682.js",
+    "static/js/453.8ae3ac38.chunk.js": "/chrxg1361/password/static/js/453.8ae3ac38.chunk.js",
+    "index.html": "/chrxg1361/password/index.html",
+    "main.5095902f.css.map": "/chrxg1361/password/static/css/main.5095902f.css.map",
+    "main.4d5d4682.js.map": "/chrxg1361/password/static/js/main.4d5d4682.js.map",
+    "453.8ae3ac38.chunk.js.map": "/chrxg1361/password/static/js/453.8ae3ac38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5095902f.css",
+    "static/js/main.4d5d4682.js"
+  ]
+}
