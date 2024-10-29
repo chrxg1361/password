@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Password Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Deployment(Non-Persistent)** 🡲[![Non-persistent Deployment](https://img.shields.io/badge/click_to_test-grey?style=plastic)](https://chrxg1361.github.io/password/)
+**Master PIN**: `1234`
+---
+## Overview
+In the digital age, secure password management is essential for maintaining privacy and safeguarding data. Many individuals struggle to manage their passwords effectively due to the complexity of using different passwords across various online services and platforms. 
 
-## Available Scripts
+This project aims to create a password manager with the following features: a password generator, password strength checker, and secure password storage. The password storage section is protected by a user-settable private master code for secure access.
 
-In the project directory, you can run:
+## Functionality
 
-### `npm start`
+### Password Generator
+- **Input**: Users are prompted for password length, number of digits, number of special characters, and case sensitivity preferences.
+- **Output**: Based on these inputs, a secure password is generated using an algorithm that follows the specified criteria.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Password Strength Checker
+- **Input**: Users can input a password for analysis.
+- **Output**: The tool evaluates password strength based on length, diversity of characters, and other security factors.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Password Storage
+- **Functionality**: Allows users to securely store existing passwords with optional username fields.
+- **Protection**: Storage is secured with a user-settable master code.
 
-### `npm test`
+### Password Management
+- **Capabilities**: Users can add new passwords, edit existing passwords, or delete stored passwords securely.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
